@@ -24,3 +24,7 @@ function My_First_Function () {                                //Defining a func
 
 var first = "<br>This is the first variable", second = " that is concatenated with the second variable!!";  //Defining two variables
 document.write(first + second);                     //Concatenate the two variables togheter
+
+function displayDate() {                //Defining a function and its name
+    document.getElementById("demo").innerHTML = Date()          //Putting the value of date into the html element "demo"
+}
