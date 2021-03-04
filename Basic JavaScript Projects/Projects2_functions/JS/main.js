@@ -17,5 +17,5 @@ function My_Second_Function () {            //Defining a function and its name
 function myFunction() {         //Defining a function and name it
     var sentence = "This is the first variable,";         //Defining a variable with text
     sentence += " this is the second variable concatenated with the first";        //Concatenating another variable with the first one
-    document.getElementById("Concatenate").innerHTML = sentence;
+    document.getElementById("Concatenate").innerHTML = sentence;            //Putting the value sentence inside the HTML "Concatenate"
 }
