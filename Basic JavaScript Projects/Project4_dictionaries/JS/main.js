@@ -9,3 +9,5 @@ function GraphicsCards() {          //Defining a function and its name
     delete Cards.GPU_Cores;         //This will delete a KVP 
     document.getElementById("Dictionary").innerHTML = Cards.GPU_Cores;      //Changes the HTML element Dictionary with the value from variable Cards, KVP GPU_Cores
 }
+
+document.write(typeof "Word");
