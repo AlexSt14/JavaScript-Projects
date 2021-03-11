@@ -41,8 +41,19 @@ function Customer(Name, Surname, DOB, Reg_Date, Active) {       //Defining a fun
 }
 
 
-var Alex = new Customer("Alex", "Sthali", 01/05/1994, 25/03/2021, "true");       //Creating a new Customer Object with properties
+var Alex = new Customer("Alex", "Sthali", "01/05/1994", "25/03/2021", "true");       //Creating a new Customer Object with properties
 
+function AlexAge() {            //Defining a function and its name
+    var a = document.getElementById("input").value;         //Defining a variable that takes input
+    var reply;      //Defining an emtpy variable
+    if (a == "Age") {       //If variable a is equal to text "Age" then execute code
+        reply = "Alex's date of birth is " + Alex.Customer_DOB;     //Changes the variable value
+    }
+    else {          //Else if the above statement is false, execute the following code
+        reply = "Please make sure to type in \"Age\"";      //Changes the variable value
+    }
+    document.getElementById("test").innerHTML = reply;      //Changes the HTML "test" element with value from variable "reply"
+}
 
 function count_Function () {
     document.getElementById("Nested_Function").innerHTML = Count();
