@@ -26,10 +26,10 @@ function myFunction() {             //Defining a function and its name
     "Erick Drives a " + Erick.Vehicle_Color + "-colored " + Erick.Vehicle_Model + " manufactured in " + Erick.Vehicle_Year;
 }
 
-var Alex = new Vehicle("Ford", "Focus", 2008, "Gray");      //Creating a new Vehicle Object with properties
+var Alex1 = new Vehicle("Ford", "Focus", 2008, "Gray");      //Creating a new Vehicle Object with properties
 function alexvehicle() {                //Defining a function and its name
     document.getElementById("New_and_This").innerHTML =         //Changing the HTML id elementi with the value below
-    "Alex drives a " + Alex.Vehicle_Color + "-colored " + Alex.Vehicle_Model + " manufactured in " + Alex.Vehicle_Year;
+    "Alex drives a " + Alex1.Vehicle_Color + "-colored " + Alex1.Vehicle_Model + " manufactured in " + Alex1.Vehicle_Year;
 }
 
 function Customer(Name, Surname, DOB, Reg_Date, Active) {       //Defining a function as a constructor for Customer Object
