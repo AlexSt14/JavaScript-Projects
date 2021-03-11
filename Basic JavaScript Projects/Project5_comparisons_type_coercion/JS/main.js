@@ -77,3 +77,4 @@ function not_Function() {       //Defines a function and its name
 function not_Function2() {      //Defines a function and its name
     document.getElementById("Not2").innerHTML = ! (10 < 21);    //Changes the HTML "Not2" element with value of the Boolean logic
 }
+
