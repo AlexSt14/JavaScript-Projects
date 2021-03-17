@@ -1,0 +1,1 @@
+alert(document.getElementById("p1").innerHTML)          //Testing the async attribute for script tag

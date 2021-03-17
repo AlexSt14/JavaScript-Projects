@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="./JS/main.js" defer></script>
+    </head>
+    <body>
+
+        <!-- Testing with this code for debugging in dev tools on Chrome! -->
+        <script>
+            A = "Always ";
+            B = "remeber: ";
+            document.write(A + B);
+
+            X = "you ";
+            Y = "are ";
+            document.write(X + Y);
+
+            M = "unique, ";
+            N = "just like everyone else.";
+            document.write(M + N);
+        </script>
+        
+        <!-- Testing with a counting function -->
+        <p id="Loop"></p>
+        <button onclick="Call_Loop()">Click here to execute the loop.</button>
+        
+        <!-- Testing the string length property -->
+        <p id="Length">How many characters does this paragraph has?</p>
+        <button onclick="string_Length()">Click to find out!</button>
+        <p id="result"></p>
+
+        <!-- Testing the for Loop -->
+        <p>Click the button below to see the for loop!</p>
+        <p id="List_of_Instruments"></p>
+        <button onclick="for_Loop()">Click here!</button>
+
+        <!-- Arrays -->
+        <p>Arrays as a special type of Object, in a function! Click below!</p>
+        <p id="Array"></p>
+        <button onclick="array_Function()">Click here!</button>
+
+        <!-- Constant in a Function -->
+        <p>Testing a function with a constant.</p>
+        <p id="Constant"></p>
+        <p id="Constant2"></p>
+        <button onclick="constant_Function()">Click here!</button>
+
+        <!-- Using the let keyword as a block scope -->
+        <p>Using the let keyword, click below!</p>
+        <p id="blockscope"></p>
+        <button onclick="addTwo()">Click here!</button>
+
+        <!-- Using the return statement -->
+        <p>Testing the return statement in a function!</p>
+        <p id="return"></p>
+
+        <!--Object with a method-->
+        <p id="graph"></p>
+        <p id="Car_Object"></p>
+
+        <!-- Using the break and continue statements -->
+        <p>Will use the break statement to jump out of a loop</p>
+        <button onclick="break_Function()">Click here!</button>
+        <p id="br"></p>
+        <p>This time will use the continue statement to jump over one iteration</p>
+        <button onclick="continue_Function()">Click here!</button>
+        <p id="cont"></p>
+    </body>
+</html>
