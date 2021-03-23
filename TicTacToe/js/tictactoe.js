@@ -179,7 +179,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
             //This method sets the width of our line
             c.lineWidth = "8"
             //This method sets the color of our line.
-            c.strokeStyle = 'rgba(0, 15, 148, 0.8)';
+            c.strokeStyle = 'rgba(10, 12, 78, 0.8)';
             //This method draws everything we laid out above.
             c.stroke();
             //This condition checks if we've reached the endpoint.
