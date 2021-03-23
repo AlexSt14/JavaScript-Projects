@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="./JavaScript/JavaScript_3.js" defer></script>
+        <link rel="stylesheet" href="./CSS/Style(html_3).css" type="text/css">
+    </head>
+    <body>
+        <!--Testing and using the data- attribute-->
+        <h1>Available GPUs</h1>
+        <h3>Click on a gpu to see more details!</h3>
+        <ul>
+            <li onclick="display_Info(this)" data-card-info="Ampere (GA102), GPU Cores: 8704, Boost Clock: 1,710 MHz, Video RAM: 10GB GDDR6X 19 Gbps, TDP: 320 watts" data-card-release="September 2020">RTX 3080</li>
+            <li onclick="display_Info(this)" data-card-info="Navi 21 XT, GPU Cores: 4608, Boost Clock: 2,250 MHz, Video RAM: 16GB GDDR6 16 Gbps, TDP: 300 watts" data-card-release="November 2020">Radeon RX 6800 XT</li>
+            <li onclick="display_Info(this)" data-card-info="Ampere (GA102), GPU Cores: 10496, Boost Clock: 1,695 MHz, Video RAM: 24GB GDDR6X 19.5 Gbps, TDP: 350 watts" data-card-release="September 2020">RTX 3090</li>
+            <li onclick="display_Info(this)" data-card-info="Ampere (GA104), GPU Cores: 5888, Boost Clock: 1,730 MHz, Video RAM: 8GB GDDR6 14 Gbps, TDP: 220 watts" data-card-release="October 2020">RTX 3070</li>
+            <li onclick="display_Info(this)" data-card-info="Navi 21, GPU Cores: 3840, Boost Clock: 2105 MHz, Video RAM: 16GB GDDR6 16 Gbps, TDP: 250 watts" data-card-release="November 2020">Radeon RX 6800</li>
+            <li onclick="display_Info(this)" data-card-info="Ampere (GA106), GPU Cores: 3584, Boost Clock: 1777 MHz, Video RAM: 12GB GDDR6 15 Gbps, TDP: 170 Watts" data-card-release="February 2021">RTX 3060</li>
+
+        </ul>
+
+        <div class="info">
+            <p id="returnInfo"></p>
+        </div>
+
+    </body>
+</html>

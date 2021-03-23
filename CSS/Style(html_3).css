@@ -1,0 +1,16 @@
+/* Targeting the unordered list to adjust the width */
+ul {
+    width: 150px;
+}
+/* Targets the list items from the UL when hovered over */
+li:hover {
+    background-color: rgb(238, 238, 238);
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Targets the div where the returnInfo paragraph is, for positioning purposes */
+.info {
+    position: absolute;
+    top: 150px;
+    margin-left: 450px;
+}
