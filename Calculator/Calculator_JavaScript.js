@@ -104,7 +104,7 @@ keys.addEventListener('click', (event) => {
     }
 
     if (target.classList.contains('decimal')) {
-        Input_Digit(target.value);
+        Input_Decimal(target.value);
         Update_Display();
         return;
     }
@@ -115,20 +115,6 @@ keys.addEventListener('click', (event) => {
         return;
     }
 
-    Input_Decimal(target.value);
+    Input_Digit(target.value);
     Update_Display;
 })
-
-// I have to fix the changing color of background on click! //
-var cli = 1;
-function chBackcolor(operator, color) {
-    let property = document.getElementsByClassName(operator);
-    if (count == 0) {
-        property.style.backgroundColor = "rgba(145, 145, 145, 0.473)";
-        count = 1;
-    }
-    else {
-        property.style.backgroundColor = "rgba(235, 235, 235, 0.473)"
-        count = 0;
-    }
-}
