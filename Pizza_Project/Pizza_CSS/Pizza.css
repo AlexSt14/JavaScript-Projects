@@ -1,0 +1,86 @@
+#menuBG {
+    width: 800px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 330px;
+    width: 100px;
+    height: 40px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(114, 0, 0);
+    margin: 10px 240px;
+    padding-top: 15px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(114, 0, 0);
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(173, 0, 0);
+}
+div {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(5, 5, 5);
+}
+#cart, #showText, #totalPrice {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
