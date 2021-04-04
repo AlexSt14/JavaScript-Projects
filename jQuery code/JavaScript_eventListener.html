@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Testing a method on the DOM</title>
+    </head>
+    <body>
+        <p>If you click anywhere on the page, the event listener will run!</p>
+        <p id="eventListener"></p>
+
+        <script>
+            document.addEventListener("click", function() {
+                document.getElementById("eventListener").innerHTML = "Hello there, the event listener has run!"
+            });
+        </script>
+    </body>
+</html>
