@@ -21,7 +21,7 @@ These are some small projects I made using JavaScript. <br>
     <a href="./HTML_2.html">Validated Contact Form</a>
   </li>
   <li>
-    Other JavaScript Code
+    <a href="https://github.com/AlexSt14/JavaScript-Projects">Other JavaScript Code</a>
   </li>
 </ul
 <hr>
@@ -44,5 +44,9 @@ My portfolio website files that are updated with JavaScript and make it look bet
 <h4>Validated Contact Form</h4>
 
 A basic contact form with javascript that validates if an input has been completed or not.
+
+<h4>Other JavaScript Code</h4>
+
+You can go to my JavaScript-Projects repository and see my other very small JavaScript projects, JavaScript code that I wrote. 
              
           
