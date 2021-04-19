@@ -47,6 +47,6 @@ A basic contact form with javascript that validates if an input has been complet
 
 <h4>Other JavaScript Code</h4>
 
-You can go to my JavaScript-Projects repository and see my other very small JavaScript projects, JavaScript code that I wrote. 
+You can go to my <a href="https://github.com/AlexSt14/JavaScript-Projects">JavaScript-Projects</a> repository and see my other very small JavaScript projects, JavaScript code that I wrote. 
              
           
