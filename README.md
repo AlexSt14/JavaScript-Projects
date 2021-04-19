@@ -1,7 +1,6 @@
 # JavaScript-Projects
 
-JavaScript Projects
-<hr>
-These are some small projects I made using JavaScript.
+These are some small projects I made using JavaScript. <br>
 Projects:
-<hr>
+<hr><br>
+<a href="">Pizza Menu</a>
