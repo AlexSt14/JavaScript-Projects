@@ -4,7 +4,7 @@ These are some small projects I made using JavaScript. <br>
 <br>
 Projects:
 <hr><br>
-<ol>
+<ul>
   <li>
     <a href="./Pizza_Project">Pizza Menu</a>
   </li>
@@ -23,4 +23,5 @@ Projects:
   <li>
     <a href="./HTML_1.html">Other JavaScript Code</a>
   </li>
+</ul
              
