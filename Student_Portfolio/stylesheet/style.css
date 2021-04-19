@@ -217,14 +217,7 @@ visibility: visible;
     text-align: center;  /* This centers the text within its container on the navbar */
 }
 
-/* Screens 576px and smaller will display navbar links equally distributed */
-@media screen and (max-width: 576px) {
-    .Navbar a {
-        width: 25%;  /* This makes each link take up 1/4 of the navbar */
-        font-size: 12px;  /* This lowers the font size for screen width lower than 576px */
-        margin-right: 0; /* This removes the margin-right so that it looks good on phone screens */
-    }
-}
+
 
 /* Navbar hover effects */
 .Navbar a:hover {
@@ -242,6 +235,17 @@ visibility: visible;
 .Navbar a.active {
     background-color: darkgrey;
 }
+
+/* Screens 576px and smaller will display navbar links equally distributed */
+@media screen and (max-width: 576px) {
+    .Navbar a {
+        width: 25%;  /* This makes each link take up 1/4 of the navbar */
+        font-size: 12px;  /* This lowers the font size for screen width lower than 576px */
+        margin-right: 0; /* This removes the margin-right so that it looks good on phone screens */
+        display: inline-block;
+    }
+}
+
 /****  END OF NAVBAR STYLING ****/
 
 
@@ -377,7 +381,7 @@ h1::after {
 
 /* Footer background color */
 #footer {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 /* Targets the paragraph element in the footer */
@@ -982,4 +986,16 @@ body.fade-out {
     background-color: rgba(0, 0, 0, 0.6);
     font-weight: bold;
     border-radius: 0px 0px 7px 7px;
+}
+
+@media (max-width: 762px) {
+    .Previous_homepage, .Next_homepage {
+        padding: 10px;
+    }
+    .Next_homepage {
+        right: -5px;
+    }
+    .textoverimg {
+        font-size: 1em;
+    }
 }
