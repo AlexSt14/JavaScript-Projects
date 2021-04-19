@@ -21,7 +21,7 @@ Projects:
     <a href="./HTML_2.html">Validated Contact Form</a>
   </li>
   <li>
-    <a href="">Other JavaScript Code</a>
+    Other JavaScript Code
   </li>
 </ul
              
