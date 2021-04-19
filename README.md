@@ -2,7 +2,7 @@
 
 These are some small projects I made using JavaScript. <br>
 <br>
-Projects:
+<h4>Projects:</h4>
 <hr><br>
 <ul>
   <li>
