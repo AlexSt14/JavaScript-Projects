@@ -32,5 +32,17 @@ This project is a menu used to order pizza with a various selection of toppings.
 <h4>Tic-Tac-Toe Game</h4>
 
 The classic game of tic-tac-toe. It randomly rolls dice to select which of the two players goes first and then users are off playing the classic game. Users can decide which token each player wants to use and the winner is celebrated with music.
+
+<h4>Calculator</h4>
+
+A basic 4 function calculator. Users can add, subtract, multiply and divide on a sleek web version of a calculator.
+
+<h4>Portfolio Website</h4>
+
+My portfolio website files that are updated with JavaScript and make it look better than the files from my HTML & CSS Repository.
+
+<h4>Validated Contact Form</h4>
+
+A basic contact form with javascript that validates if an input has been completed or not.
              
           
