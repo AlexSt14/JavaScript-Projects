@@ -24,6 +24,7 @@ These are some small projects I made using JavaScript. <br>
     Other JavaScript Code
   </li>
 </ul
+  <br>
 <hr>
 <h4>Pizza Menu</h4><br>
 <br>
